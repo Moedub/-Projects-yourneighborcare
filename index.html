@@ -77,46 +77,61 @@
   </section>
 
   <!-- CONTACT -->
-  <<section id="contact" class="contact">
+  <section id="contact" class="contact">
     <div class="container">
       <h2>Get in Touch</h2>
+  
       <form
-        action="https://formspree.io/f/YOUR_FORM_ID"
+        action="https://formspree.io/f/xzzrzgrl"
         method="POST"
         class="contact-form"
       >
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          required
-        />
-        <textarea
-          name="message"
-          rows="5"
-          placeholder="Message"
-          required
-        ></textarea>
-        <!-- optional: set a custom email subject -->
+        <!-- Optional: custom subject line -->
         <input
           type="hidden"
           name="_subject"
           value="New message from YourNeighborCare.com"
         />
-        <!-- optional: redirect to a thank-you page -->
-        <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html" /> -->
+  
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+  
+        <label>
+          Email
+          <input
+            type="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+        </label>
+  
+        <label>
+          Message
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="How can we help?"
+            required
+          ></textarea>
+        </label>
+  
         <button type="submit" class="btn">Send Message</button>
       </form>
   
       <div class="contact-info">
-        <p>Phone: <a href="tel:4026714601">(402) 671-4601</a></p>
-        <p>Email: <a href="mailto:yourneighborcare@gmail.com">yourneighborcare@gmail.com</a></p>
+        <p>
+          Phone:
+          <a href="tel:4026714601">(402) 671-4601</a>
+        </p>
+        <p>
+          Email:
+          <a href="mailto:yourneighborcare@gmail.com"
+            >yourneighborcare@gmail.com</a
+          >
+        </p>
         <p>Location: Omaha, NE</p>
       </div>
     </div>
