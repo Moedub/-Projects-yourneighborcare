@@ -77,22 +77,51 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="contact">
+  <<section id="contact" class="contact">
     <div class="container">
       <h2>Get in Touch</h2>
-      <form action="#" method="POST" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <form
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        class="contact-form"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Message"
+          required
+        ></textarea>
+        <!-- optional: set a custom email subject -->
+        <input
+          type="hidden"
+          name="_subject"
+          value="New message from YourNeighborCare.com"
+        />
+        <!-- optional: redirect to a thank-you page -->
+        <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html" /> -->
         <button type="submit" class="btn">Send Message</button>
       </form>
+  
       <div class="contact-info">
-        <p><strong>Phone:</strong> <a href="tel:+14026714601">(402) 671-4601</a></p>
-        <p><strong>Email:</strong> <a href="mailto:email@yourneighborcarellc@gmail.com">email@yourneighborcarellc@gmail.com</a></p>
-        <p><strong>Location:</strong> Omaha, NE</p>
+        <p>Phone: <a href="tel:4026714601">(402) 671-4601</a></p>
+        <p>Email: <a href="mailto:yourneighborcare@gmail.com">yourneighborcare@gmail.com</a></p>
+        <p>Location: Omaha, NE</p>
       </div>
     </div>
   </section>
+  
 
   <footer class="site-footer">
     <div class="container">
