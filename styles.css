@@ -188,14 +188,17 @@ h2 {
 }
 .contact-form input,
 .contact-form textarea {
+  width: 100%;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .contact-form button.btn {
-  font-size: 1.1rem;
-  padding: 0.75rem 2rem;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
   background: #2a9d8f;
   color: #fff;
   border-radius: 30px;
